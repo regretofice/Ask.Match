@@ -70,8 +70,7 @@ body:
         - 参与者
         - 发起者（组织者）
         - 运营管理员
-        - 场地方 / 资源提供方
-        - 付费方
+        - 付费方（活动 AA）
     validations:
       required: true
 
