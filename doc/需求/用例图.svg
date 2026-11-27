@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="820" viewBox="0 0 1080 820" role="img" aria-labelledby="title description">
+  <title id="title">有问必搭 UML 用例图</title>
+  <desc id="description">系统边界内包含 11 个用例。发起者、参与者、运营管理员和外部的同济统一身份认证及系统推送服务位于边界外。实线表示主参与，虚线表示协作。UC-05、UC-09 由系统内部事件触发。</desc>
+  <style>
+    text { font-family: "Microsoft YaHei", "Noto Sans CJK SC", "PingFang SC", sans-serif; fill: #172b4d; }
+    .boundary { fill: #f7faff; stroke: #243b5a; stroke-width: 2; }
+    .heading { font-size: 22px; font-weight: 700; }
+    .main, .secondary { fill: none; stroke-linecap: round; }
+    .main { stroke: #295179; stroke-width: 1.9; }
+    .secondary { stroke: #73859b; stroke-width: 1.65; stroke-dasharray: 6 5; }
+    .cases ellipse { fill: white; stroke: #527398; stroke-width: 1.8; }
+    .cases text { font-size: 16px; text-anchor: middle; dominant-baseline: central; }
+    .case-id { font-size: 14px; font-weight: 700; }
+    .actor-line { fill: none; stroke: #243b5a; stroke-width: 2.3; stroke-linecap: round; }
+    .actor-text, .service text { text-anchor: middle; font-size: 16px; font-weight: 600; }
+    .service rect { fill: #f2f6fa; stroke: #527398; stroke-width: 1.6; }
+    .service .stereotype, .legend { font-size: 14px; fill: #40566f; font-weight: 400; }
+  </style>
+  <rect width="1080" height="820" fill="white"/>
+  <rect class="boundary" x="230" y="40" width="566" height="722"/>
+  <text class="heading" x="252" y="71">有问必搭系统</text>
+  <g aria-label="参与者关联">
+    <path class="secondary" data-actor="O" data-uc="UC-02" d="M 120 173 L 352 167"/>
+    <path class="secondary" data-actor="O" data-uc="UC-05" d="M 120 173 L 352 356"/>
+    <path class="secondary" data-actor="O" data-uc="UC-10" d="M 120 173 L 352 671"/>
+    <path class="secondary" data-actor="P" data-uc="UC-03" d="M 120 423 L 352 230"/>
+    <path class="secondary" data-actor="P" data-uc="UC-05" d="M 120 423 L 352 356"/>
+    <path class="secondary" data-actor="A" data-uc="UC-09" d="M 897 673 L 674 608"/>
+    <path class="secondary" data-actor="PUSH" data-uc="UC-05" d="M 822 356 L 674 356"/>
+    <path class="secondary" data-actor="SSO" data-uc="UC-08" d="M 822 545 L 674 545"/>
+    <path class="main" data-actor="O" data-uc="UC-01" d="M 120 173 L 352 104"/>
+    <path class="main" data-actor="O" data-uc="UC-03" d="M 120 173 L 352 230"/>
+    <path class="main" data-actor="O" data-uc="UC-04" d="M 120 173 L 352 293"/>
+    <path class="main" data-actor="P" data-uc="UC-02" d="M 120 423 L 352 167"/>
+    <path class="main" data-actor="P" data-uc="UC-04" d="M 120 423 L 352 293"/>
+    <path class="main" data-actor="P" data-uc="UC-06" d="M 120 423 L 352 419"/>
+    <path class="main" data-actor="P" data-uc="UC-07" d="M 120 423 L 352 482"/>
+    <path class="main" data-actor="P" data-uc="UC-08" d="M 120 423 L 352 545"/>
+    <path class="main" data-actor="P" data-uc="UC-10" d="M 120 423 L 352 671"/>
+    <path class="main" data-actor="A" data-uc="UC-10" d="M 897 673 L 674 671"/>
+    <path class="main" data-actor="A" data-uc="UC-11" d="M 897 673 L 674 734"/>
+  </g>
+  <g class="cases" aria-label="系统用例">
+    <g data-use-case="UC-01" transform="translate(513 104)">
+      <ellipse rx="161" ry="25"/>
+      <text><tspan class="case-id">UC-01</tspan><tspan dx="12">发布活动</tspan></text>
+    </g>
+    <g data-use-case="UC-02" transform="translate(513 167)">
+      <ellipse rx="161" ry="25"/>
+      <text><tspan class="case-id">UC-02</tspan><tspan dx="12">浏览活动并申请</tspan></text>
+    </g>
+    <g data-use-case="UC-03" transform="translate(513 230)">
+      <ellipse rx="161" ry="25"/>
+      <text><tspan class="case-id">UC-03</tspan><tspan dx="12">审批申请并管理名额</tspan></text>
+    </g>
+    <g data-use-case="UC-04" transform="translate(513 293)">
+      <ellipse rx="161" ry="25"/>
+      <text><tspan class="case-id">UC-04</tspan><tspan dx="12">变更活动或退出</tspan></text>
+    </g>
+    <g data-use-case="UC-05" transform="translate(513 356)">
+      <ellipse rx="161" ry="25"/>
+      <text><tspan class="case-id">UC-05</tspan><tspan dx="12">发送消息与提醒</tspan></text>
+    </g>
+    <g data-use-case="UC-06" transform="translate(513 419)">
+      <ellipse rx="161" ry="25"/>
+      <text><tspan class="case-id">UC-06</tspan><tspan dx="12">查看资料与管理可见范围</tspan></text>
+    </g>
+    <g data-use-case="UC-07" transform="translate(513 482)">
+      <ellipse rx="161" ry="25"/>
+      <text><tspan class="case-id">UC-07</tspan><tspan dx="12">查找临时同伴</tspan></text>
+    </g>
+    <g data-use-case="UC-08" transform="translate(513 545)">
+      <ellipse rx="161" ry="25"/>
+      <text><tspan class="case-id">UC-08</tspan><tspan dx="12">管理账户</tspan></text>
+    </g>
+    <g data-use-case="UC-09" transform="translate(513 608)">
+      <ellipse rx="161" ry="25"/>
+      <text><tspan class="case-id">UC-09</tspan><tspan dx="12">自动下架活动</tspan></text>
+    </g>
+    <g data-use-case="UC-10" transform="translate(513 671)">
+      <ellipse rx="161" ry="25"/>
+      <text><tspan class="case-id">UC-10</tspan><tspan dx="12">举报与处理违规</tspan></text>
+    </g>
+    <g data-use-case="UC-11" transform="translate(513 734)">
+      <ellipse rx="161" ry="25"/>
+      <text><tspan class="case-id">UC-11</tspan><tspan dx="12">管理运营事务</tspan></text>
+    </g>
+  </g>
+  <g aria-label="用户角色">
+    <g transform="translate(92 173)">
+      <circle cy="-25" r="10" class="actor-line"/>
+      <path d="M 0 -15 V 13 M -18 0 H 18 M 0 13 L -14 32 M 0 13 L 14 32" class="actor-line"/>
+      <text y="57" class="actor-text">发起者</text>
+    </g>
+    <g transform="translate(92 423)">
+      <circle cy="-25" r="10" class="actor-line"/>
+      <path d="M 0 -15 V 13 M -18 0 H 18 M 0 13 L -14 32 M 0 13 L 14 32" class="actor-line"/>
+      <text y="57" class="actor-text">参与者</text>
+    </g>
+    <g transform="translate(925 673)">
+      <circle cy="-25" r="10" class="actor-line"/>
+      <path d="M 0 -15 V 13 M -18 0 H 18 M 0 13 L -14 32 M 0 13 L 14 32" class="actor-line"/>
+      <text y="57" class="actor-text">运营管理员</text>
+    </g>
+  </g>
+  <g class="service" transform="translate(822 356)">
+    <rect x="0" y="-25" width="204" height="50" rx="4"/>
+    <text class="stereotype" x="102" y="-5">«外部系统»</text>
+    <text x="102" y="15">系统推送服务</text>
+  </g>
+  <g class="service" transform="translate(822 545)">
+    <rect x="0" y="-25" width="204" height="50" rx="4"/>
+    <text class="stereotype" x="102" y="-5">«外部系统»</text>
+    <text x="102" y="15">同济统一身份认证</text>
+  </g>
+  <g aria-label="图例">
+    <path class="main" d="M 232 791 H 272"/>
+    <text class="legend" x="284" y="796">主参与者</text>
+    <path class="secondary" d="M 382 791 H 422"/>
+    <text class="legend" x="434" y="796">次参与者</text>
+    <text class="legend" x="554" y="796">UC-05、UC-09 由系统事件触发</text>
+  </g>
+</svg>
